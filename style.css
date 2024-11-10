@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2b4b4;
+    padding: 20px;
+}
+
+h1 {
+    color: #1f1717;
+}
+
+#arrayOutput {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e799c7;
+    border: 1px solid #c263cd;
+    border-radius: 5px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #eb7ec8;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    border: solid #dc25dc;
+
+}
+
+#errorMessage {
+    color: red;
+    margin-top: 20px;
+}
